@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "محمد لؤي العش",
+    "description": "The title in the navbar"
+  },
+  "item.label.الدراسات": {
+    "message": "الدراسات",
+    "description": "Navbar item with label الدراسات"
+  },
+  "item.label.المدونة": {
+    "message": "المدونة",
+    "description": "Navbar item with label المدونة"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

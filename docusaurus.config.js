@@ -3,18 +3,23 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'مدونة خاصة تتحدث عمّا أواجه من تجارب شخصية',
+  tagline: 'أرجو أن تجد ما ينفعك في أحد السطور',
+  url: 'https://lalosh-blog.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'https://github.com/lalosh', // Usually your GitHub org/user name.
+  projectName: 'الموقع الشخصي', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+    },
+
     navbar: {
-      title: 'My Site',
+      title: 'محمد لؤي العش',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -24,11 +29,11 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'الدراسات',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'المدونة', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/lalosh/lalosh-blog',
           label: 'GitHub',
           position: 'right',
         },
@@ -38,46 +43,46 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'خريطة الموقع',
           items: [
             {
-              label: 'Tutorial',
+              label: 'الدراسات',
+              to: '/docs/intro',
+            },
+            {
+              label: 'المدونة',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'للتواصل',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Telegram',
+              to: 'https://t.me/laloshx17',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Linkedin',
+              to: 'https://www.linkedin.com/in/mhd-louay-al-osh-43b67b149/',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'المزيد',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Github',
+              to: 'https://github.com/lalosh',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Stack Overflow',
+              to: 'https://stackoverflow.com/users/8667766/louay-alosh',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `حقوق النشر محفوظة © ${new Date().getFullYear()} (بُني بإستخدام Docusaurus)`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -106,4 +111,8 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'ar',
+    locales: ['ar'],
+  },
 };

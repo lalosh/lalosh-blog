@@ -1,0 +1,42 @@
+{
+  "link.title.خريطةالموقع": {
+    "message": "خريطة الموقع",
+    "description": "The title of the footer links column with title=خريطةالموقع in the footer"
+  },
+  "link.title.للتواصل": {
+    "message": "للتواصل",
+    "description": "The title of the footer links column with title=للتواصل in the footer"
+  },
+  "link.title.المزيد": {
+    "message": "المزيد",
+    "description": "The title of the footer links column with title=المزيد in the footer"
+  },
+  "link.item.label.الدراسات": {
+    "message": "الدراسات",
+    "description": "The label of footer link with label=الدراسات linking to /docs/intro"
+  },
+  "link.item.label.المدونة": {
+    "message": "المدونة",
+    "description": "The label of footer link with label=المدونة linking to /docs/intro"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://t.me/laloshx17"
+  },
+  "link.item.label.Linkedin": {
+    "message": "Linkedin",
+    "description": "The label of footer link with label=Linkedin linking to https://www.linkedin.com/in/mhd-louay-al-osh-43b67b149/"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/lalosh"
+  },
+  "link.item.label.Stack Overflow": {
+    "message": "Stack Overflow",
+    "description": "The label of footer link with label=Stack Overflow linking to https://stackoverflow.com/users/8667766/louay-alosh"
+  },
+  "copyright": {
+    "message": "حقوق النشر محفوظة © 2021 (بُني بإستخدام Docusaurus)",
+    "description": "The footer copyright"
+  }
+}
