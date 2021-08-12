@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/blog">
             ابدأ بالقراءة
           </Link>
         </div>
@@ -29,8 +29,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`الموقع الشخصي | ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`مدونة خاصة | محمد لؤي العش`}
+      description="مدونة تتحدث عن تجارب شخصية أمر بها">
       <HomepageHeader />
       <main>
         {/* <HomepageFeatures /> */}

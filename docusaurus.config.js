@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'مدونة خاصة تتحدث عمّا أواجه من تجارب شخصية',
+  title: 'مدونة تتحدث عن تجارب شخصية أمر بها',
   tagline: 'أرجو أن تجد ما ينفعك في أحد السطور',
   url: 'https://lalosh-blog.com',
   baseUrl: '/',
@@ -11,7 +11,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'https://github.com/lalosh', // Usually your GitHub org/user name.
-  projectName: 'الموقع الشخصي', // Usually your repo name.
+  projectName: ' الشخصي', // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: 'light',
@@ -19,19 +19,19 @@ module.exports = {
     },
 
     navbar: {
-      title: 'محمد لؤي العش',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'مدونة خاصة | محمد لؤي العش',
+      // logo: {
+      //   alt: '',
+      //   src: 'img/logo.svg',
+      // },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'الدراسات',
-        },
-        { to: '/blog', label: 'المدونة', position: 'left' },
+        // {
+        //   type: 'doc',
+        //   docId: 'intro',
+        //   position: 'left',
+        //   label: 'الدراسات',
+        // },
+        // { to: '/blog', label: 'المدونة', position: 'left' },
         {
           href: 'https://github.com/lalosh/lalosh-blog',
           label: 'GitHub',
@@ -76,6 +76,10 @@ module.exports = {
               to: 'https://github.com/lalosh',
             },
             {
+              label: 'Gitlab',
+              to: 'https://gitlab.com/lalosh',
+            },
+            {
               label: 'Stack Overflow',
               to: 'https://stackoverflow.com/users/8667766/louay-alosh',
             },
@@ -96,12 +100,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/lalosh/lalosh-blog/edit/master/docs/',
+            'https://github.com/lalosh/lalosh-blog/edit/master/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           editUrl:
-            'https://github.com/lalosh/lalosh-blog/edit/master/blog/',
+            'https://github.com/lalosh/lalosh-blog/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
